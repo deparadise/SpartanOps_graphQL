@@ -1,6 +1,9 @@
 import React from 'react';
+import { Router } from '@reach/router';
 import logo from './logo.svg';
 import './App.css';
+
+import RouteOne from './Route-one';
 
 //TODO: -> Start router
 //TODO: - ADD main navigation
@@ -8,6 +11,11 @@ import './App.css';
 function App() {
 	return (
 		<div className="App">
+			<header>
+				<Router>
+					<RouteOne path="/one" />
+				</Router>
+			</header>
 			<main className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
