@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//TODO: - Start router
+//TODO: - ADD main navigation
+
 function App() {
   return (
     <div className="App">
