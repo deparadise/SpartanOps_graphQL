@@ -9,6 +9,8 @@ import Personnel from './view/personnel';
 import Inventory from './view/inventory';
 import BattleLog from './view/battle-log';
 
+import MainNav from './component/main-nav';
+
 function App() {
 	return (
 		<div className="App">
@@ -20,6 +22,7 @@ function App() {
 					<Inventory path="/inventory" />
 					<BattleLog path="/battle-log" />
 				</Router>
+				<MainNav />
 			</header>
 			<main className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
