@@ -1,4 +1,9 @@
-const artemisStateModel = {
+// import uniqueId from 'lodash/uniqueId';
+
+// >>> Temp initilal model payloads go here <<<
+
+// ARTEMIS STATE MODEL
+export default {
 	console: {
 		onBoardStatus: {},
 		preferences: {}
