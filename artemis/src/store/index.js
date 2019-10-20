@@ -4,6 +4,6 @@ import { createStore } from "redux";
 import initialState from "./initial-state";
 
 export default createStore(
-	{}, // combineReducers imp TBD
+	() => {}, // combineReducers imp TBD
 	initialState
 );
