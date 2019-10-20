@@ -1,10 +1,21 @@
 const artemisStateModel = {
-	console: {},
-	onBoardStatus: {},
+	console: {
+		onBoardStatus: {},
+		preferences: {}
+	},
 	engagementIndex: {},
 	battleLogIndex: {},
 	personnelIndex: {},
 	inventoryIndex: {},
-	models: {},
-	preferences: {}
+	models: {
+		fleet: [],
+		personnel: [],
+		inventory: {
+			transport: [],
+			airSupport: [],
+			groundSupport: [],
+			armament: {},
+			supplies: {}
+		}
+	}
 };
