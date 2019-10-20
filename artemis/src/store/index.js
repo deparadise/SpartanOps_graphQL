@@ -1,9 +1,9 @@
 import { createStore } from "redux";
 
-// import reducers from '../reducers'; // TBD
+// import reducers from '../reducers'; // TODO: reducers TBD
 import initialState from "./initial-state";
 
 export default createStore(
-	() => {}, // combineReducers imp TBD
+	() => {}, // TODO: combineReducers imp TBD
 	initialState
 );

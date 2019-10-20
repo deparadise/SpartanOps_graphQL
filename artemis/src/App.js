@@ -9,7 +9,7 @@ import Personnel from './view/personnel';
 import Inventory from './view/inventory';
 import BattleLog from './view/battle-log';
 
-import MainNav from './component/main-nav';
+import MainNav from './components/main-nav';
 
 function App() {
 	return (
