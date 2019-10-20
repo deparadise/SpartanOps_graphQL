@@ -10,6 +10,7 @@ import Inventory from './view/inventory';
 import BattleLog from './view/battle-log';
 
 import MainNav from './components/main-nav';
+import TestConsoleWake from './components/TestConsoleWake';
 
 function App() {
 	return (
@@ -26,6 +27,9 @@ function App() {
 			</header>
 			<main className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
+
+				<TestConsoleWake />
+
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
