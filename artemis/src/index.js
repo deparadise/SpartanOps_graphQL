@@ -9,6 +9,7 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
+	// Provider side loads the store to all child components
 	<Provider store={store}>
 		<App />
 	</Provider>,
