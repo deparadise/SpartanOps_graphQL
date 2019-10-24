@@ -1,0 +1,2 @@
+// CONSOLE
+export const WAKE_CONSOLE = 'WAKE_CONSOLE';

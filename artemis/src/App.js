@@ -9,7 +9,8 @@ import Personnel from './view/personnel';
 import Inventory from './view/inventory';
 import BattleLog from './view/battle-log';
 
-import MainNav from './component/main-nav';
+import MainNav from './components/main-nav';
+import ConsoleInterface from './interface/Console';
 
 function App() {
 	return (
@@ -26,6 +27,9 @@ function App() {
 			</header>
 			<main className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
+
+				<ConsoleInterface />
+
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
