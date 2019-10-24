@@ -6,9 +6,6 @@ class TesterConsoleWake extends Component {
 		let {
 			props: { wake, toggleConsoleWake }
 		} = this;
-		console.log('>> WAKE CLIKED! >>', this.props);
-		console.log('>> CLICK READING STATE:', wake);
-
 		toggleConsoleWake(wake);
 	};
 
