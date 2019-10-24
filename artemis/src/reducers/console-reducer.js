@@ -3,9 +3,9 @@
 
 // IMPORT CONSTANTS AND STATE
 import { WAKE_CONSOLE } from '../actions/constants';
-import { defaultStateForConsole } from '../store/initial-state';
+import { defaultForConsole } from '../store/initial-state';
 
-export default function(state = defaultStateForConsole(), action) {
+export default function(state = defaultForConsole(), action) {
 	let { type, value } = action;
 
 	if (type === WAKE_CONSOLE) {
