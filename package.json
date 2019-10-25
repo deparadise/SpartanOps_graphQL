@@ -25,5 +25,8 @@
 	"homepage": "https://github.com/deparadise/ONI-UNSC_ARTEMIS_react_graphQL#readme",
 	"devDependencies": {
 		"prettier": "^1.18.2"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
 	}
 }
