@@ -1,0 +1,15 @@
+{
+  "name": "artemis_api_apollo",
+  "version": "1.0.0",
+  "description": "GraphQL test development server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL",
+    "NodeJS"
+  ],
+  "author": "david.pineda@deparadise.com",
+  "license": "ISC"
+}
