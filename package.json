@@ -24,6 +24,10 @@
 	},
 	"homepage": "https://github.com/deparadise/ONI-UNSC_ARTEMIS_react_graphQL#readme",
 	"devDependencies": {
+		"@babel/cli": "^7.6.4",
+		"@babel/core": "^7.6.4",
+		"babel-core": "^6.26.3",
+		"babel-eslint": "^10.0.3",
 		"prettier": "^1.18.2"
 	},
 	"dependencies": {
