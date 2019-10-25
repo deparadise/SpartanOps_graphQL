@@ -11,5 +11,11 @@
     "NodeJS"
   ],
   "author": "david.pineda@deparadise.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3"
+  }
 }
