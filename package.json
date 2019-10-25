@@ -1,4 +1,28 @@
 {
+	"name": "artemis_overwatch",
+	"version": "1.0.0",
+	"description": "Starting test project for learning the MERN stack w/ GraphQL",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/deparadise/ONI-UNSC_ARTEMIS_react_graphQL.git"
+	},
+	"keywords": [
+		"Mongo_DB",
+		"Expressjs",
+		"Reactjs",
+		"Nodejs",
+		"GraphQL"
+	],
+	"author": "david.pineda@deparadise.com",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/deparadise/ONI-UNSC_ARTEMIS_react_graphQL/issues"
+	},
+	"homepage": "https://github.com/deparadise/ONI-UNSC_ARTEMIS_react_graphQL#readme",
 	"devDependencies": {
 		"prettier": "^1.18.2"
 	}
