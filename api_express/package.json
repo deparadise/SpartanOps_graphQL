@@ -13,9 +13,7 @@
 	"keywords": [
 		"Mongo_DB",
 		"Expressjs",
-		"Reactjs",
-		"Nodejs",
-		"GraphQL"
+		"Nodejs"
 	],
 	"author": "david.pineda@deparadise.com",
 	"license": "ISC",
