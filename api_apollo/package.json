@@ -37,6 +37,6 @@
 		"graphql-tools": "^4.0.6",
 		"lodash": "^4.17.15",
 		"mongoose": "^5.7.7",
-		"validator": "^11.1.0"
+		"validator": "^13.7.0"
 	}
 }
